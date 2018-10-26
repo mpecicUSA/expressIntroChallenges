@@ -19,7 +19,8 @@ app.get("/", function(req, res){
 });
 
 app.get("/verify/:age", function(req, res){
-  if(req.params.age > 13){
+  let age = Number(req.params.age)
+  if(age > 13){
     res.send(200);
   } else{
     res.send(403);
