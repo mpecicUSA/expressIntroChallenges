@@ -16,7 +16,7 @@ Create a POST route for "/create/:name" that returns a json object that looks li
 
 ### Challenge 3:
 
-Create a GET route for "/" that returns the index.html file.
+Create a GET route for "/" that returns the index.html file. -- Added some text to confirm
 
 ### Challenge 4:
 
